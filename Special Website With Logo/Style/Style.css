@@ -1,0 +1,112 @@
+@charset "utf-8";
+/*
+#F4EEFF // MORE LİGHT
+#DCD6F7 // LİGHT
+#A6B1E1 // DARK
+#424874 // MORE DARK
+*/
+
+body 
+{
+    background: #DCD6F7;
+    background-position: center;
+}
+#container 
+{
+    width: 100%;
+}
+#left_container 
+{
+    float: left;
+    background: #424874;
+    width: 50%;
+    height: 1080px; /* Sayfanın tam yüksekliği */
+}
+#right_container 
+{
+    float: left;
+    background: #DCD6F7;
+    width: 50%;
+    height: 1080px; /* Sayfanın tam yüksekliği */
+}
+.clear_container 
+{
+    clear: both;
+}
+#nav 
+{
+    float: right;
+    padding: 20px;
+    text-align: right; /* İçeriği sağa yaslamak için */
+}
+#nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+#nav ul li 
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+#nav ul li a 
+{
+    text-decoration: none;
+    color: #424874;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#nav ul li a:hover 
+{
+    color: #F4EEFF;
+    background: #424874;
+}
+#description_box 
+{
+    position: absolute;
+    top: 50%;
+    right: 1px; /* 1 piksel sağa kaydır */
+    transform: translateY(-50%);
+    width: 300px;
+    height: 300px;
+    background-color: #A6B1E1;
+	border-radius: 10px;
+	border: solid 1px #424874;
+}
+#logo_container 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#about_me 
+{
+    background-color: #DCD6F7;
+    padding: 50px 0;
+    text-align: center;
+}
+#about_me .container 
+{
+    width: 80%;
+    margin: 0 auto;
+}
+#about_me h2 
+{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#about_me img 
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#about_me p 
+{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
